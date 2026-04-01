@@ -1,0 +1,21 @@
+body { font-family: sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; padding: 20px; }
+.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 600px; }
+h1 { text-align: center; color: #333; }
+
+.input-section, .filter-section { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+input, select, button { padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+#taskText { flex-grow: 1; }
+button { cursor: pointer; background-color: #28a745; color: white; border: none; }
+button:hover { background-color: #218838; }
+
+ul { list-style: none; padding: 0; }
+.task-item { background: #fff; border-bottom: 1px solid #eee; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+.task-item.completed { opacity: 0.6; text-decoration: line-through; }
+
+.priority-Alta { color: #dc3545; font-weight: bold; }
+.priority-Média { color: #ffc107; font-weight: bold; }
+.priority-Baixa { color: #28a745; font-weight: bold; }
+
+.actions button { margin-left: 5px; font-size: 12px; padding: 4px 8px; }
+.delete-btn { background: #dc3545; }
+.edit-btn { background: #007bff; }
